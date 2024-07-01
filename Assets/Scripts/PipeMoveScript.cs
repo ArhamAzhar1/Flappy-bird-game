@@ -5,6 +5,7 @@ using UnityEngine;
 public class PipeMoveScript : MonoBehaviour
 {
 
+
     public float moveSpeed = 5;
     public float deadZone = -45;
 
@@ -23,5 +24,6 @@ public class PipeMoveScript : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
 }
